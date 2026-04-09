@@ -1,0 +1,9 @@
+# Private project files - never publish
+MEMORY.md
+SKILL.md
+*.xlsx
+*.xls
+data-intake/
+
+# System files
+.DS_Store
