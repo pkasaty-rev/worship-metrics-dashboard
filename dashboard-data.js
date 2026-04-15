@@ -14,7 +14,7 @@
 
 const DASHBOARD_DATA = {
 
-    lastRefreshed: '2026-04-11',
+    lastRefreshed: '2026-04-14',
 
     // Ordered quarter labels — append new quarters here
     quarters: [
@@ -34,7 +34,7 @@ const DASHBOARD_DATA = {
             infantBaptisms:  [34, 30, 34, 25, 27, 22, 22, null, 4, 8, 5, null],
             childBaptisms:   [null, null, null, null, 0, 1, 0, 1, null, 1, 1, null],
             adultBaptisms:   [null, null, null, null, 7, 7, 4, 6, null, 0, 0, null],
-            streamingHours:  [null, null, null, null, null, null, null, null, 778, 1141, 1255, 149]
+            streamingHours:  [null, null, null, null, null, null, null, null, 778, 1141, 1255, 213]
         },
         sumner: {
             weeklyAvg:       [705, 718, 775, 640, 726, 722, 788, 742, 748, 747, 787, null],
@@ -44,7 +44,7 @@ const DASHBOARD_DATA = {
             infantBaptisms:  [null, null, null, null, 7, 10, 5, 3, 5, 5, 9, null],
             childBaptisms:   [null, null, null, null, 1, 2, 2, 1, 2, 3, 3, null],
             adultBaptisms:   [null, null, null, null, 0, 2, 0, 1, null, 0, 0, null],
-            streamingHours:  [null, null, null, null, null, null, null, null, 890, 1284, 1482, 176]
+            streamingHours:  [null, null, null, null, null, null, null, null, 890, 1284, 1482, 287]
         },
         yh: {
             weeklyAvg:       [491, 503, 566, 519, 514, 553, 569, 627, 633, 672, 603, null],
@@ -54,7 +54,7 @@ const DASHBOARD_DATA = {
             infantBaptisms:  [null, null, null, null, 1, 4, 8, 5, 7, 9, 7, null],
             childBaptisms:   [null, null, null, null, 0, 3, 0, 4, null, 8, 2, null],
             adultBaptisms:   [null, null, null, null, 3, 1, 1, 1, null, 3, 0, null],
-            streamingHours:  [null, null, null, null, null, null, null, null, 689, 737, 826, 90]
+            streamingHours:  [null, null, null, null, null, null, null, null, 689, 737, 826, 125]
         }
     },
 
@@ -96,12 +96,14 @@ const DASHBOARD_DATA = {
         },
         'Q4 25-26': {
             attendance: [
-                { date: '2026-04-05', sanctuary: 1280, sumner: 1650, yh: 1148, note: 'Easter Sunday — Sanctuary includes 6am sunrise service (104)' }
+                { date: '2026-04-05', sanctuary: 1280, sumner: 1650, yh: 1148, note: 'Easter Sunday — Sanctuary includes 6am sunrise service (104)' },
+                { date: '2026-04-12', sanctuary: 449, sumner: 700, yh: null, note: 'First regular Sunday of Q4 — Sanctuary only 2 services (no 11am); 211 YH not yet entered in PCO' }
             ],
             streaming: [
-                { date: '2026-04-02', label: 'Maundy Thursday', sanctuary: 1286, sumner: 1478, yh: 745 },
-                { date: '2026-04-03', label: 'Good Friday', sanctuary: 1787, sumner: 3511, yh: 1592 },
-                { date: '2026-04-05', label: 'Easter Sunday', sanctuary: 5861, sumner: 5547, yh: 3055 }
+                { date: '2026-04-02', label: 'Maundy Thursday', sanctuary: 1288, sumner: 1548, yh: 745 },
+                { date: '2026-04-03', label: 'Good Friday', sanctuary: 1787, sumner: 3519, yh: 1603 },
+                { date: '2026-04-05', label: 'Easter Sunday', sanctuary: 5899, sumner: 6856, yh: 3186 },
+                { date: '2026-04-12', sanctuary: 3814, sumner: 5314, yh: 1979 }
             ]
         }
     }
