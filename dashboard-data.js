@@ -14,7 +14,7 @@
 
 const DASHBOARD_DATA = {
 
-    lastRefreshed: '2026-04-14',
+    lastRefreshed: '2026-04-15',
 
     // Ordered quarter labels — append new quarters here
     quarters: [
@@ -96,8 +96,8 @@ const DASHBOARD_DATA = {
         },
         'Q4 25-26': {
             attendance: [
-                { date: '2026-04-05', sanctuary: 1280, sumner: 1650, yh: 1148, note: 'Easter Sunday — Sanctuary includes 6am sunrise service (104)' },
-                { date: '2026-04-12', sanctuary: 449, sumner: 700, yh: null, note: 'First regular Sunday of Q4 — Sanctuary only 2 services (no 11am); 211 YH not yet entered in PCO' }
+                { date: '2026-04-05', sanctuary: 1280, sumner: 1650, yh: 1298, note: 'Easter Sunday — Sanctuary includes 6am sunrise service (104)' },
+                { date: '2026-04-12', sanctuary: 621, sumner: 700, yh: 610, note: 'First regular Sunday of Q4 — Sanctuary only 2 services (no 11am)' }
             ],
             streaming: [
                 { date: '2026-04-02', label: 'Maundy Thursday', sanctuary: 1288, sumner: 1548, yh: 745 },
