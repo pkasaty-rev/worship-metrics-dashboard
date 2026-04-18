@@ -14,7 +14,7 @@
 
 const DASHBOARD_DATA = {
 
-    lastRefreshed: '2026-04-15',
+    lastRefreshed: '2026-04-18',
 
     // Ordered quarter labels — append new quarters here
     quarters: [
@@ -26,10 +26,10 @@ const DASHBOARD_DATA = {
     // Per-space quarterly data — arrays are indexed to match quarters[]
     spaces: {
         sanctuary: {
-            weeklyAvg:       [586, 582, 657, 559, 602, 610, 621, 622, 590, 611, 663, null],
-            service8am:      [194, 191, 248, 213, 207, 218, 222, 218, 203, 237, 221, null],
-            service930am:    [219, 226, 237, 227, 238, 242, 231, 260, 249, 240, 283, null],
-            service11am:     [142, 135, 138, 119, 130, 128, 146, 144, 138, 134, 159, null],
+            weeklyAvg:       [586, 582, 657, 559, 602, 610, 621, 622, 590, 611, 663, 621],
+            service8am:      [194, 191, 248, 213, 207, 218, 222, 218, 203, 237, 221, 226],
+            service930am:    [219, 226, 237, 227, 238, 242, 231, 260, 249, 240, 283, 223],
+            service11am:     [142, 135, 138, 119, 130, 128, 146, 144, 138, 134, 159, 172],
             firstTimeGuests: [88, 86, null, null, 118, 155, 152, 231, 109, 607, null, null],
             infantBaptisms:  [34, 30, 34, 25, 27, 22, 22, null, 4, 8, 5, null],
             childBaptisms:   [null, null, null, null, 0, 1, 0, 1, null, 1, 1, null],
@@ -37,9 +37,9 @@ const DASHBOARD_DATA = {
             streamingHours:  [null, null, null, null, null, null, null, null, 778, 1141, 1255, 213]
         },
         sumner: {
-            weeklyAvg:       [705, 718, 775, 640, 726, 722, 788, 742, 748, 747, 787, null],
-            service930am:    [435, 426, 465, 405, 458, 453, 474, 449, 465, 453, 463, null],
-            service11am:     [270, 292, 310, 235, 268, 269, 314, 293, 283, 294, 324, null],
+            weeklyAvg:       [705, 718, 775, 640, 726, 722, 788, 742, 748, 747, 787, 700],
+            service930am:    [435, 426, 465, 405, 458, 453, 474, 449, 465, 453, 463, 427],
+            service11am:     [270, 292, 310, 235, 268, 269, 314, 293, 283, 294, 324, 273],
             firstTimeGuests: [null, 155, null, null, 222, 365, 412, 269, 184, 485, null, null],
             infantBaptisms:  [null, null, null, null, 7, 10, 5, 3, 5, 5, 9, null],
             childBaptisms:   [null, null, null, null, 1, 2, 2, 1, 2, 3, 3, null],
@@ -47,9 +47,9 @@ const DASHBOARD_DATA = {
             streamingHours:  [null, null, null, null, null, null, null, null, 890, 1284, 1482, 287]
         },
         yh: {
-            weeklyAvg:       [491, 503, 566, 519, 514, 553, 569, 627, 633, 672, 603, null],
-            service9am:      [249, 249, 270, 286, 273, 301, 285, 356, 320, 331, 292, null],
-            service1030am:   [242, 254, 296, 233, 241, 252, 284, 271, 313, 341, 311, null],
+            weeklyAvg:       [491, 503, 566, 519, 514, 553, 569, 627, 633, 672, 603, 610],
+            service9am:      [249, 249, 270, 286, 273, 301, 285, 356, 320, 331, 292, 315],
+            service1030am:   [242, 254, 296, 233, 241, 252, 284, 271, 313, 341, 311, 295],
             firstTimeGuests: [null, 4, null, null, 157, 369, 213, 258, 117, 589, null, null],
             infantBaptisms:  [null, null, null, null, 1, 4, 8, 5, 7, 9, 7, null],
             childBaptisms:   [null, null, null, null, 0, 3, 0, 4, null, 8, 2, null],
