@@ -17,15 +17,15 @@
 // ============================================================
 
 const DASHBOARD_DATA = {
-    lastRefreshed: '2026-04-20',
+    lastRefreshed: '2026-04-22',
     quarters: ['Q1 23-24', 'Q2 23-24', 'Q3 23-24', 'Q4 23-24', 'Q1 24-25', 'Q2 24-25', 'Q3 24-25', 'Q4 24-25', 'Q1 25-26', 'Q2 25-26', 'Q3 25-26', 'Q4 25-26'],
     spaces: {
         sanctuary: {
-            weeklyAvg: [586, 582, 657, 559, 602, 610, 621, 622, 590, 611, 663, 621],
-            service8am: [194, 191, 248, 213, 207, 218, 222, 218, 203, 237, 221, 226],
-            service930am: [219, 226, 237, 227, 238, 242, 231, 260, 249, 240, 283, 223],
-            service11am: [142, 135, 138, 119, 130, 128, 146, 144, 138, 134, 159, 172],
-            firstTimeGuests: [88, 86, null, null, 118, 155, 152, 231, 109, 607, null, null],
+            weeklyAvg: [586, 582, 657, 559, 602, 610, 621, 622, 590, 611, 663, 663],
+            service8am: [194, 191, 248, 213, 207, 218, 222, 218, 203, 237, 221, 219],
+            service930am: [219, 226, 237, 227, 238, 242, 231, 260, 249, 240, 283, 250],
+            service11am: [142, 135, 138, 119, 130, 128, 146, 144, 138, 134, 159, 194],
+            firstTimeGuests: [88, 86, null, null, 118, 155, 152, 231, 229, 607, 508, null],
             infantBaptisms: [34, 30, 34, 25, 27, 22, 22, null, 4, 8, 5, null],
             childBaptisms: [null, null, null, null, 0, 1, 0, 1, null, 1, 1, null],
             adultBaptisms: [null, null, null, null, 7, 7, 4, 6, null, 0, 0, null],
@@ -35,21 +35,21 @@ const DASHBOARD_DATA = {
             weeklyAvg: [705, 718, 775, 640, 726, 722, 788, 742, 748, 747, 787, 779],
             service930am: [435, 426, 465, 405, 458, 453, 474, 449, 465, 453, 463, 468],
             service11am: [270, 292, 310, 235, 268, 269, 314, 293, 283, 294, 324, 311],
-            firstTimeGuests: [null, 155, null, null, 222, 365, 412, 269, 184, 485, null, null],
+            firstTimeGuests: [null, 155, null, null, 222, 365, 412, 269, 344, 485, 545, null],
             infantBaptisms: [null, null, null, null, 7, 10, 5, 3, 5, 5, 9, null],
             childBaptisms: [null, null, null, null, 1, 2, 2, 1, 2, 3, 3, null],
             adultBaptisms: [null, null, null, null, 0, 2, 0, 1, null, 0, 0, null],
-            streamingHours: [null, null, null, null, null, null, null, null, 890, 1284, 1526, 402]
+            streamingHours: [null, null, null, null, null, null, null, null, 890, 1284, 1527, 409]
         },
         yh: {
             weeklyAvg: [491, 503, 566, 519, 514, 553, 569, 627, 633, 672, 603, 609],
             service9am: [249, 249, 270, 286, 273, 301, 285, 356, 320, 331, 292, 316],
             service1030am: [242, 254, 296, 233, 241, 252, 284, 271, 313, 341, 311, 293],
-            firstTimeGuests: [null, 4, null, null, 157, 369, 213, 258, 117, 589, null, null],
+            firstTimeGuests: [null, 4, null, null, 157, 369, 213, 258, 292, 589, 275, null],
             infantBaptisms: [null, null, null, null, 1, 4, 8, 5, 7, 9, 7, null],
             childBaptisms: [null, null, null, null, 0, 3, 0, 4, null, 8, 2, null],
             adultBaptisms: [null, null, null, null, 3, 1, 1, 1, null, 3, 0, null],
-            streamingHours: [null, null, null, null, null, null, null, null, 689, 737, 830, 173]
+            streamingHours: [null, null, null, null, null, null, null, null, 689, 737, 830, 174]
         }
     },
     weeklyData: {
@@ -79,30 +79,30 @@ const DASHBOARD_DATA = {
                 { date: '2026-02-15', sanctuary: 4773, sumner: 6636, yh: 2924 },
                 { date: '2026-02-18', label: 'Ash Wednesday', sanctuary: 1301, sumner: 0, yh: 0 },
                 { date: '2026-02-19', label: 'Ash Wednesday', sanctuary: 0, sumner: 1912, yh: 1375 },
-                { date: '2026-02-22', sanctuary: 6166, sumner: 7387, yh: 4320 },
-                { date: '2026-03-01', sanctuary: 5583, sumner: 5493, yh: 3907 },
+                { date: '2026-02-22', sanctuary: 6166, sumner: 7411, yh: 4320 },
+                { date: '2026-03-01', sanctuary: 5583, sumner: 5504, yh: 3907 },
                 { date: '2026-03-04', sanctuary: 852, sumner: 0, yh: 0 },
-                { date: '2026-03-08', sanctuary: 4130, sumner: 4738, yh: 3378 },
+                { date: '2026-03-08', sanctuary: 4130, sumner: 4745, yh: 3378 },
                 { date: '2026-03-11', sanctuary: 699, sumner: 0, yh: 0 },
-                { date: '2026-03-15', sanctuary: 6532, sumner: 7918, yh: 3405 },
+                { date: '2026-03-15', sanctuary: 6532, sumner: 7919, yh: 3405 },
                 { date: '2026-03-18', sanctuary: 787, sumner: 0, yh: 0 },
-                { date: '2026-03-22', sanctuary: 4843, sumner: 14608, yh: 2715 },
+                { date: '2026-03-22', sanctuary: 4843, sumner: 14643, yh: 2715 },
                 { date: '2026-03-25', sanctuary: 520, sumner: 0, yh: 0 },
-                { date: '2026-03-29', sanctuary: 4172, sumner: 5994, yh: 2999 }
+                { date: '2026-03-29', sanctuary: 4172, sumner: 6007, yh: 2999 }
             ]
         },
         'Q4 25-26': {
             attendance: [
                 { date: '2026-04-05', sanctuary: 1280, sumner: 1650, yh: 1298, note: 'Easter Sunday' },
                 { date: '2026-04-12', sanctuary: 621, sumner: 700, yh: 610 },
-                { date: '2026-04-19', sanctuary: 0, sumner: 858, yh: 608 }
+                { date: '2026-04-19', sanctuary: 705, sumner: 858, yh: 608 }
             ],
             streaming: [
                 { date: '2026-04-02', label: 'Maundy Thursday', sanctuary: 1321, sumner: 1578, yh: 745 },
                 { date: '2026-04-03', label: 'Good Friday', sanctuary: 1868, sumner: 3532, yh: 1606 },
-                { date: '2026-04-05', label: 'Easter Sunday', sanctuary: 6008, sumner: 7117, yh: 3194 },
-                { date: '2026-04-12', sanctuary: 3871, sumner: 6097, yh: 2306 },
-                { date: '2026-04-19', sanctuary: 4191, sumner: 5804, yh: 2533 }
+                { date: '2026-04-05', label: 'Easter Sunday', sanctuary: 6018, sumner: 7194, yh: 3194 },
+                { date: '2026-04-12', sanctuary: 3894, sumner: 6185, yh: 2343 },
+                { date: '2026-04-19', sanctuary: 4209, sumner: 6062, yh: 2541 }
             ]
         }
     }
