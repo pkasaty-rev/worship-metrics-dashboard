@@ -17,7 +17,7 @@
 // ============================================================
 
 const DASHBOARD_DATA = {
-    lastRefreshed: '2026-04-27',
+    lastRefreshed: '2026-04-30',
     quarters: ['Q1 23-24', 'Q2 23-24', 'Q3 23-24', 'Q4 23-24', 'Q1 24-25', 'Q2 24-25', 'Q3 24-25', 'Q4 24-25', 'Q1 25-26', 'Q2 25-26', 'Q3 25-26', 'Q4 25-26'],
     spaces: {
         sanctuary: {
@@ -29,7 +29,7 @@ const DASHBOARD_DATA = {
             infantBaptisms: [34, 30, 34, 25, 27, 22, 22, null, 4, 8, 5, null],
             childBaptisms: [null, null, null, null, 0, 1, 0, 1, null, 1, 1, null],
             adultBaptisms: [null, null, null, null, 7, 7, 4, 6, null, 0, 0, null],
-            streamingHours: [null, null, null, null, null, null, null, null, 778, 1141, 1264, 369]
+            streamingHours: [null, null, null, null, null, null, null, null, 778, 1141, 1264, 371]
         },
         sumner: {
             weeklyAvg: [705, 718, 775, 640, 726, 722, 788, 742, 748, 747, 787, 792],
@@ -39,7 +39,7 @@ const DASHBOARD_DATA = {
             infantBaptisms: [null, null, null, null, 7, 10, 5, 3, 5, 5, 9, null],
             childBaptisms: [null, null, null, null, 1, 2, 2, 1, 2, 3, 3, null],
             adultBaptisms: [null, null, null, null, 0, 2, 0, 1, null, 0, 0, null],
-            streamingHours: [null, null, null, null, null, null, null, null, 890, 1284, 1530, 508]
+            streamingHours: [null, null, null, null, null, null, null, null, 890, 1284, 1531, 514]
         },
         yh: {
             weeklyAvg: [491, 503, 566, 519, 514, 553, 569, 627, 633, 672, 603, 589],
@@ -49,7 +49,7 @@ const DASHBOARD_DATA = {
             infantBaptisms: [null, null, null, null, 1, 4, 8, 5, 7, 9, 7, null],
             childBaptisms: [null, null, null, null, 0, 3, 0, 4, null, 8, 2, null],
             adultBaptisms: [null, null, null, null, 3, 1, 1, 1, null, 3, 0, null],
-            streamingHours: [null, null, null, null, null, null, null, null, 689, 737, 830, 218]
+            streamingHours: [null, null, null, null, null, null, null, null, 689, 737, 830, 221]
         }
     },
     weeklyData: {
@@ -75,18 +75,18 @@ const DASHBOARD_DATA = {
                 { date: '2026-01-18', sanctuary: 5942, sumner: 6101, yh: 3557 },
                 { date: '2026-01-25', sanctuary: 8700, sumner: 7754, yh: 5192 },
                 { date: '2026-02-01', sanctuary: 6364, sumner: 8096, yh: 4343 },
-                { date: '2026-02-08', sanctuary: 4680, sumner: 1693, yh: 4029 },
-                { date: '2026-02-15', sanctuary: 4776, sumner: 6639, yh: 2924 },
+                { date: '2026-02-08', sanctuary: 4680, sumner: 1711, yh: 4029 },
+                { date: '2026-02-15', sanctuary: 4776, sumner: 6651, yh: 2924 },
                 { date: '2026-02-18', label: 'Ash Wednesday', sanctuary: 1301, sumner: 0, yh: 0 },
                 { date: '2026-02-19', label: 'Ash Wednesday', sanctuary: 0, sumner: 1917, yh: 1375 },
                 { date: '2026-02-22', sanctuary: 6180, sumner: 7411, yh: 4320 },
                 { date: '2026-03-01', sanctuary: 5583, sumner: 5565, yh: 3907 },
                 { date: '2026-03-04', sanctuary: 856, sumner: 0, yh: 0 },
-                { date: '2026-03-08', sanctuary: 4171, sumner: 4746, yh: 3385 },
+                { date: '2026-03-08', sanctuary: 4178, sumner: 4766, yh: 3385 },
                 { date: '2026-03-11', sanctuary: 699, sumner: 0, yh: 0 },
-                { date: '2026-03-15', sanctuary: 6556, sumner: 7920, yh: 3405 },
-                { date: '2026-03-18', sanctuary: 795, sumner: 0, yh: 0 },
-                { date: '2026-03-22', sanctuary: 4843, sumner: 14673, yh: 2716 },
+                { date: '2026-03-15', sanctuary: 6562, sumner: 7920, yh: 3405 },
+                { date: '2026-03-18', sanctuary: 798, sumner: 0, yh: 0 },
+                { date: '2026-03-22', sanctuary: 4843, sumner: 14676, yh: 2716 },
                 { date: '2026-03-25', sanctuary: 527, sumner: 0, yh: 0 },
                 { date: '2026-03-29', sanctuary: 4172, sumner: 6012, yh: 2999 }
             ]
@@ -100,11 +100,11 @@ const DASHBOARD_DATA = {
             ],
             streaming: [
                 { date: '2026-04-02', label: 'Maundy Thursday', sanctuary: 1321, sumner: 1578, yh: 752 },
-                { date: '2026-04-03', label: 'Good Friday', sanctuary: 1868, sumner: 3535, yh: 1609 },
-                { date: '2026-04-05', label: 'Easter Sunday', sanctuary: 6032, sumner: 7273, yh: 3200 },
-                { date: '2026-04-12', sanctuary: 3912, sumner: 6373, yh: 2373 },
-                { date: '2026-04-19', sanctuary: 4317, sumner: 6493, yh: 2628 },
-                { date: '2026-04-26', sanctuary: 4712, sumner: 5226, yh: 2514 }
+                { date: '2026-04-03', label: 'Good Friday', sanctuary: 1868, sumner: 3539, yh: 1609 },
+                { date: '2026-04-05', label: 'Easter Sunday', sanctuary: 6032, sumner: 7273, yh: 3219 },
+                { date: '2026-04-12', sanctuary: 3912, sumner: 6373, yh: 2388 },
+                { date: '2026-04-19', sanctuary: 4317, sumner: 6592, yh: 2629 },
+                { date: '2026-04-26', sanctuary: 4804, sumner: 5491, yh: 2662 }
             ]
         }
     }
