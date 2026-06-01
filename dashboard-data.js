@@ -26,9 +26,9 @@ const DASHBOARD_DATA = {
             service930am: [219, 226, 237, 227, 238, 242, 231, 260, 249, 240, 283, 236],
             service11am: [142, 135, 138, 119, 130, 128, 146, 144, 138, 134, 159, 158],
             firstTimeGuests: [88, 86, null, null, 118, 155, 152, 231, 229, 607, 508, null],
-            infantBaptisms: [34, 30, 34, 25, 27, 22, 22, null, 4, 8, 5, null],
-            childBaptisms: [null, null, null, null, 0, 1, 0, 1, null, 1, 1, null],
-            adultBaptisms: [null, null, null, null, 7, 7, 4, 6, null, 0, 0, null],
+            infantBaptisms: [34, 30, 34, 25, 27, 22, 22, null, 4, 8, 5, 4],
+            childBaptisms: [null, null, null, null, 0, 1, 0, 1, null, 1, 1, 0],
+            adultBaptisms: [null, null, null, null, 7, 7, 4, 6, null, 0, 0, 0],
             streamingHours: [null, null, null, null, null, null, null, null, 778, 1141, 1265, 682]
         },
         sumner: {
@@ -36,9 +36,9 @@ const DASHBOARD_DATA = {
             service930am: [435, 426, 465, 405, 458, 453, 474, 449, 465, 453, 463, 469],
             service11am: [270, 292, 310, 235, 268, 269, 314, 293, 283, 294, 324, 265],
             firstTimeGuests: [null, 155, null, null, 222, 365, 412, 269, 344, 485, 545, null],
-            infantBaptisms: [null, null, null, null, 7, 10, 5, 3, 5, 5, 9, null],
-            childBaptisms: [null, null, null, null, 1, 2, 2, 1, 2, 3, 3, null],
-            adultBaptisms: [null, null, null, null, 0, 2, 0, 1, null, 0, 0, null],
+            infantBaptisms: [null, null, null, null, 7, 10, 5, 3, 5, 5, 9, 8],
+            childBaptisms: [null, null, null, null, 1, 2, 2, 1, 2, 3, 3, 0],
+            adultBaptisms: [null, null, null, null, 0, 2, 0, 1, null, 0, 0, 0],
             streamingHours: [null, null, null, null, null, null, null, null, 890, 1284, 1532, 838]
         },
         yh: {
@@ -46,9 +46,9 @@ const DASHBOARD_DATA = {
             service9am: [249, 249, 270, 286, 273, 301, 285, 356, 320, 331, 292, 323],
             service1030am: [242, 254, 296, 233, 241, 252, 284, 271, 313, 341, 311, 297],
             firstTimeGuests: [null, 4, null, null, 157, 369, 213, 258, 292, 589, 275, null],
-            infantBaptisms: [null, null, null, null, 1, 4, 8, 5, 7, 9, 7, null],
-            childBaptisms: [null, null, null, null, 0, 3, 0, 4, null, 8, 2, null],
-            adultBaptisms: [null, null, null, null, 3, 1, 1, 1, null, 3, 0, null],
+            infantBaptisms: [null, null, null, null, 1, 4, 8, 5, 7, 9, 7, 2],
+            childBaptisms: [null, null, null, null, 0, 3, 0, 4, null, 8, 2, 4],
+            adultBaptisms: [null, null, null, null, 3, 1, 1, 1, null, 3, 0, 0],
             streamingHours: [null, null, null, null, null, null, null, null, 689, 737, 831, 550]
         }
     },
