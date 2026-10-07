@@ -17,42 +17,42 @@
 // ============================================================
 
 const DASHBOARD_DATA = {
-    lastRefreshed: '2026-08-07',
-    quarters: ['Q1 23-24', 'Q2 23-24', 'Q3 23-24', 'Q4 23-24', 'Q1 24-25', 'Q2 24-25', 'Q3 24-25', 'Q4 24-25', 'Q1 25-26', 'Q2 25-26', 'Q3 25-26', 'Q4 25-26', 'Q1 26-27'],
+    lastRefreshed: '2026-10-07',
+    quarters: ['Q1 23-24', 'Q2 23-24', 'Q3 23-24', 'Q4 23-24', 'Q1 24-25', 'Q2 24-25', 'Q3 24-25', 'Q4 24-25', 'Q1 25-26', 'Q2 25-26', 'Q3 25-26', 'Q4 25-26', 'Q1 26-27', 'Q2 26-27'],
     spaces: {
         sanctuary: {
-            weeklyAvg: [586, 582, 657, 559, 602, 610, 621, 622, 590, 611, 663, 659, 557],
-            service8am: [194, 191, 248, 213, 207, 218, 222, 218, 203, 237, 221, 228, 187],
-            service930am: [219, 226, 237, 227, 238, 242, 231, 260, 249, 240, 283, 259, 235],
-            service11am: [142, 135, 138, 119, 130, 128, 146, 144, 138, 134, 159, 164, 135],
-            firstTimeGuests: [88, 86, null, null, 118, 155, 152, 231, 229, 607, 508, 398, null],
-            infantBaptisms: [34, 30, 34, 25, 27, 22, 22, null, 4, 8, 5, 9, null],
-            childBaptisms: [null, null, null, null, 0, 1, 0, 1, null, 1, 1, 1, null],
-            adultBaptisms: [null, null, null, null, 7, 7, 4, 6, null, 0, 0, 1, null],
-            streamingHours: [null, null, null, null, null, null, null, null, 778, 1141, 1262, 1074, 365],
-            serviceEaster: [null, null, null, null, null, null, null, null, null, null, null, 8, null]
+            weeklyAvg: [586, 582, 657, 559, 602, 610, 621, 622, 590, 611, 663, 659, 618, 757],
+            service8am: [194, 191, 248, 213, 207, 218, 222, 218, 203, 237, 221, 228, 211, 238],
+            service930am: [219, 226, 237, 227, 238, 242, 231, 260, 249, 240, 283, 259, 252, 288],
+            service11am: [142, 135, 138, 119, 130, 128, 146, 144, 138, 134, 159, 164, 155, 231],
+            firstTimeGuests: [88, 86, null, null, 118, 155, 152, 231, 229, 607, 508, 398, null, null],
+            infantBaptisms: [34, 30, 34, 25, 27, 22, 22, null, 4, 8, 5, 9, null, null],
+            childBaptisms: [null, null, null, null, 0, 1, 0, 1, null, 1, 1, 1, null, null],
+            adultBaptisms: [null, null, null, null, 7, 7, 4, 6, null, 0, 0, 1, null, null],
+            streamingHours: [null, null, null, null, null, null, null, null, 778, 1141, 1262, 1074, 987, 72],
+            serviceEaster: [null, null, null, null, null, null, null, null, null, null, null, 8, null, null]
         },
         sumner: {
-            weeklyAvg: [705, 718, 775, 640, 726, 722, 788, 742, 748, 747, 787, 843, 593],
-            service930am: [435, 426, 465, 405, 458, 453, 474, 449, 465, 453, 463, 502, 357],
-            service11am: [270, 292, 310, 235, 268, 269, 314, 293, 283, 294, 324, 305, 236],
-            firstTimeGuests: [null, 155, null, null, 222, 365, 412, 269, 344, 485, 545, 572, null],
-            infantBaptisms: [null, null, null, null, 7, 10, 5, 3, 5, 5, 9, 14, null],
-            childBaptisms: [null, null, null, null, 1, 2, 2, 1, 2, 3, 3, 0, null],
-            adultBaptisms: [null, null, null, null, 0, 2, 0, 1, null, 0, 0, 3, null],
-            streamingHours: [null, null, null, null, null, null, null, null, 890, 1284, 1526, 1429, 397],
-            serviceEaster: [null, null, null, null, null, null, null, null, null, null, null, 36, null]
+            weeklyAvg: [705, 718, 775, 640, 726, 722, 788, 742, 748, 747, 787, 843, 660, 785],
+            service930am: [435, 426, 465, 405, 458, 453, 474, 449, 465, 453, 463, 502, 384, 508],
+            service11am: [270, 292, 310, 235, 268, 269, 314, 293, 283, 294, 324, 305, 276, 277],
+            firstTimeGuests: [null, 155, null, null, 222, 365, 412, 269, 344, 485, 545, 572, null, null],
+            infantBaptisms: [null, null, null, null, 7, 10, 5, 3, 5, 5, 9, 14, null, null],
+            childBaptisms: [null, null, null, null, 1, 2, 2, 1, 2, 3, 3, 0, null, null],
+            adultBaptisms: [null, null, null, null, 0, 2, 0, 1, null, 0, 0, 3, null, null],
+            streamingHours: [null, null, null, null, null, null, null, null, 890, 1284, 1526, 1429, 1285, 52],
+            serviceEaster: [null, null, null, null, null, null, null, null, null, null, null, 36, null, null]
         },
         yh: {
-            weeklyAvg: [491, 503, 566, 519, 514, 553, 569, 627, 633, 672, 603, 660, 593],
-            service9am: [249, 249, 270, 286, 273, 301, 285, 356, 320, 331, 292, 360, 325],
-            service1030am: [242, 254, 296, 233, 241, 252, 284, 271, 313, 341, 311, 289, 268],
-            firstTimeGuests: [null, 4, null, null, 157, 369, 213, 258, 292, 589, 275, 418, null],
-            infantBaptisms: [null, null, null, null, 1, 4, 8, 5, 7, 9, 7, 3, null],
-            childBaptisms: [null, null, null, null, 0, 3, 0, 4, null, 8, 2, 4, null],
-            adultBaptisms: [null, null, null, null, 3, 1, 1, 1, null, 3, 0, 0, null],
-            streamingHours: [null, null, null, null, null, null, null, null, 689, 737, 830, 808, 238],
-            serviceEaster: [null, null, null, null, null, null, null, null, null, null, null, 11, null]
+            weeklyAvg: [491, 503, 566, 519, 514, 553, 569, 627, 633, 672, 603, 660, 645, null],
+            service9am: [249, 249, 270, 286, 273, 301, 285, 356, 320, 331, 292, 360, 343, null],
+            service1030am: [242, 254, 296, 233, 241, 252, 284, 271, 313, 341, 311, 289, 302, null],
+            firstTimeGuests: [null, 4, null, null, 157, 369, 213, 258, 292, 589, 275, 418, null, null],
+            infantBaptisms: [null, null, null, null, 1, 4, 8, 5, 7, 9, 7, 3, null, null],
+            childBaptisms: [null, null, null, null, 0, 3, 0, 4, null, 8, 2, 4, null, null],
+            adultBaptisms: [null, null, null, null, 3, 1, 1, 1, null, 3, 0, 0, null, null],
+            streamingHours: [null, null, null, null, null, null, null, null, 689, 737, 830, 808, 642, 53],
+            serviceEaster: [null, null, null, null, null, null, null, null, null, null, null, 11, null, null]
         }
     },
     weeklyData: {
@@ -134,14 +134,38 @@ const DASHBOARD_DATA = {
                 { date: '2026-07-12', sanctuary: 558, sumner: 587, yh: 655 },
                 { date: '2026-07-19', sanctuary: 591, sumner: 688, yh: 566 },
                 { date: '2026-07-26', sanctuary: 563, sumner: 632, yh: 637 },
-                { date: '2026-08-02', sanctuary: 614, sumner: 642, yh: 662 }
+                { date: '2026-08-02', sanctuary: 614, sumner: 642, yh: 662 },
+                { date: '2026-08-09', sanctuary: 667, sumner: 660, yh: 776 },
+                { date: '2026-08-16', sanctuary: 651, sumner: 777, yh: 665 },
+                { date: '2026-08-23', sanctuary: 710, sumner: 741, yh: 714 },
+                { date: '2026-08-30', sanctuary: 672, sumner: 702, yh: 703 },
+                { date: '2026-09-06', sanctuary: 600, sumner: 642, yh: 658 },
+                { date: '2026-09-13', sanctuary: 718, sumner: 643, yh: 595 },
+                { date: '2026-09-20', sanctuary: 606, sumner: 726, yh: 655 },
+                { date: '2026-09-27', sanctuary: 623, sumner: 728, yh: 649 }
             ],
             streaming: [
-                { date: '2026-07-05', sanctuary: 4488, sumner: 4993, yh: 2968 },
-                { date: '2026-07-12', sanctuary: 4339, sumner: 4922, yh: 2924 },
-                { date: '2026-07-19', sanctuary: 4117, sumner: 6057, yh: 2979 },
-                { date: '2026-07-26', sanctuary: 4981, sumner: 3694, yh: 3039 },
-                { date: '2026-08-02', sanctuary: 3970, sumner: 4181, yh: 2369 }
+                { date: '2026-07-05', sanctuary: 4489, sumner: 5008, yh: 2977 },
+                { date: '2026-07-12', sanctuary: 4349, sumner: 4941, yh: 2953 },
+                { date: '2026-07-19', sanctuary: 4135, sumner: 6123, yh: 3023 },
+                { date: '2026-07-26', sanctuary: 5093, sumner: 3939, yh: 3063 },
+                { date: '2026-08-02', sanctuary: 4037, sumner: 14463, yh: 2512 },
+                { date: '2026-08-09', sanctuary: 4319, sumner: 5247, yh: 2928 },
+                { date: '2026-08-16', sanctuary: 5112, sumner: 6476, yh: 3365 },
+                { date: '2026-08-23', sanctuary: 4628, sumner: 4760, yh: 2595 },
+                { date: '2026-08-30', sanctuary: 4568, sumner: 6090, yh: 3226 },
+                { date: '2026-09-06', sanctuary: 4199, sumner: 5840, yh: 2725 },
+                { date: '2026-09-13', sanctuary: 4739, sumner: 4708, yh: 3269 },
+                { date: '2026-09-20', sanctuary: 4841, sumner: 5279, yh: 2920 },
+                { date: '2026-09-27', sanctuary: 4722, sumner: 4243, yh: 2958 }
+            ]
+        },
+        'Q2 26-27': {
+            attendance: [
+                { date: '2026-10-04', sanctuary: 757, sumner: 785, yh: 0 }
+            ],
+            streaming: [
+                { date: '2026-10-04', sanctuary: 4308, sumner: 3126, yh: 3166 }
             ]
         }
     }

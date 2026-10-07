@@ -7,3 +7,14 @@ data-intake/
 
 # System files
 .DS_Store
+
+# Sandbox push credentials and helper - never publish
+.github-token
+push-from-sandbox.sh
+
+# Local working copies / backups / comms deliverables
+*.before-*
+MEMORY-ARCHIVE-*.md
+Q* Data Table.html
+quarterly-data-table-*
+DEPRECIATED*
